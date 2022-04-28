@@ -1,0 +1,73 @@
+@import url(hamburger.css);
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  color: #52646b; }
+
+.header__container {
+  display: grid;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 30px 20px 0px 20px;
+  position: relative; }
+  @media (max-width: 768px) {
+    .header__container {
+      padding: 10px 20px 0px 20px; } }
+  @media (max-width: 480px) {
+    .header__container {
+      padding: 10px 10px 0px 10px; } }
+
+.header__title {
+  position: absolute;
+  justify-self: center;
+  padding: 20px 40px;
+  background-color: #80b7b3;
+  font-size: 68px;
+  color: #ffffff;
+  -webkit-box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.2);
+  z-index: 0; }
+  @media (max-width: 1000px) {
+    .header__title {
+      font-size: 58px; } }
+  @media (max-width: 768px) {
+    .header__title {
+      font-size: 48px; } }
+  @media (max-width: 650px) {
+    .header__title {
+      font-size: 38px; } }
+  @media (max-width: 480px) {
+    .header__title {
+      font-size: 30px;
+      padding: 10px 25px; } }
+
+.header__subject {
+  margin: 0 auto;
+  font-size: 189px;
+  letter-spacing: 38px;
+  color: #EFEFEF;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif; }
+  @media (max-width: 1000px) {
+    .header__subject {
+      font-size: 169px;
+      letter-spacing: 28px; } }
+  @media (max-width: 768px) {
+    .header__subject {
+      font-size: 159px;
+      letter-spacing: 18px; } }
+  @media (max-width: 650px) {
+    .header__subject {
+      font-size: 129px;
+      letter-spacing: 8px; } }
+  @media (max-width: 480px) {
+    .header__subject {
+      font-size: 90px;
+      letter-spacing: 0px; } }
+
+/*# sourceMappingURL=Marcy-peronal-blog.css.map */
