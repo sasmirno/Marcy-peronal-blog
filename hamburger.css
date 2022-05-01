@@ -32,11 +32,11 @@
 }
 .menu__btn > span::before {
 	content: '';
-	top: -10px;
+	top: -9px;
 }
 .menu__btn > span::after {
 	content: '';
-	top: 10px;
+	top: 9px;
 }
 /* контейнер меню */
 .menu__box {

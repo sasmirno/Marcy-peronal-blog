@@ -7,7 +7,7 @@
 	box-sizing: border-box
 	font-family: 'Playfair Display', serif
 	color: #52646b
-
+//--------------------шапка--------------------
 .header__container
 	display: grid
 	max-width: 1140px
@@ -58,3 +58,108 @@
 	@media (max-width: 480px)
 		font-size: 90px
 		letter-spacing: 0px
+//---------------общии настройки контентной части---------------
+.page
+
+.page__container
+	max-width: 1140px
+	margin: -800px auto 0 auto
+	padding: 0px 20px 0px 20px
+	@media (max-width: 480px)
+		padding: 0px 10px 0px 10px
+
+.page__img
+	display: block
+	filter: drop-shadow(0px 15px 32.5px rgba(15,16,16,0.15))
+	border: 15px solid #ffffff
+
+.page__subject
+	font-size: 14px
+	letter-spacing: 3px
+	color: #93979A
+	text-transform: uppercase
+	font-weight: 500
+	font-family: "Poppins", sans-serif
+
+.page__title
+	font-size: 36px
+	line-height: 50px
+	color: #273d46
+	font-weight: 400
+	@media (max-width: 480px)
+		line-height: 45px
+
+.page__text
+	font-size: 24px
+	line-height: 40px
+	@media (max-width: 480px)
+		line-height: 30px
+
+.page__button
+	max-width: 200px
+	& a
+		padding: 10px 25px
+		font-size: 14px
+		letter-spacing: 3px
+		color: #ffffff
+		text-transform: uppercase
+		text-decoration: none
+		font-weight: 500
+		font-family: "Poppins", sans-serif
+		border-radius: 25px
+		filter: drop-shadow(0px 6px 20px rgba(128,183,179,0.54))
+		background-color: #80b7b3
+		transition-duration: .25s
+	@media (max-width: 480px)
+		margin-top: 20px
+	& span
+		color: #fff
+		font-size: 20px
+	&:hover
+		filter: drop-shadow(0px 6px 20px rgba(128,183,179,1))
+//----------первый блок-------------
+.page__block1_foto
+	overflow: hidden
+	margin-top: -45px 
+	@media (max-width: 650px)
+		visibility: hidden
+	& img
+		position: relative
+
+.img1
+	max-width: 850px
+	left: 50%
+	top: 85px
+	@media (max-width: 1000px)
+		left: 65%
+	@media (max-width: 768px)
+		left: 74%
+
+.img2
+	max-width: 370px
+	left: 45%
+	bottom: 445px
+	@media (min-width: 2000px)
+		left: 47%
+	@media (min-width: 3000px)
+		left: 49%
+	@media (max-width: 1000px)
+		left: 60%
+	@media (max-width: 768px)
+		left: 70%
+
+.page__block1
+	margin: 0 0 200px 0
+	@media (max-width: 768px)
+		margin: 0 0 100px 0
+	& h2
+		max-width: 430px
+		padding: 25px 0
+	& p
+		max-width: 420px
+		padding: 25px 0
+	@media (max-width: 480px)
+		& h2
+			padding: 10px 0
+		& p
+			padding: 10px 0
