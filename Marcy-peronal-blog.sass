@@ -99,7 +99,7 @@
 .page__button
 	transition-duration: .25s
 	& a
-		padding: 10px 25px
+		padding: 12px 46px
 		font-size: 14px
 		letter-spacing: 3px
 		color: #ffffff
@@ -233,8 +233,6 @@
 	position: relative
 	max-width: 950px
 	min-height: 540px
-	@media (max-width: 480px)
-		min-height: 600px
 .page__quote1
 	display: grid
 	grid-template-columns: repeat(2, 1fr)
@@ -280,13 +278,15 @@
 		font-style: italic
 		line-height: 46px
 		color: #273d46
+		@media (max-width: 480px)
+			line-height: 44px
 	& div:last-child
 		justify-self: center
 		margin-bottom: -108px
 		@media (max-width: 650px)
 			margin-bottom: -94px
 		@media (max-width: 480px)
-			margin-bottom: -35px
+			margin-bottom: -30px
 .page__nameplate
 	& span
 		text-transform: uppercase
@@ -295,6 +295,74 @@
 		line-height: 40px
 		color: #93979A
 		font-weight: 500
-		font-family: "Poppins"
+		font-family: "Poppins", sans-serif
 	& span:first-child
 		color: #273d46
+//------------подвал----------------
+.footer
+	padding: 0 20px
+	display: grid
+	justify-items: center
+	align-items: center
+	height: 630px
+	background-image: url(img/background.jpg)
+	@media (max-width: 480px)
+		padding: 0 10px
+		height: 530px
+.footer__container
+	display: grid
+	justify-items: center
+	align-items: center
+	gap: 50px
+	max-width: 670px
+	min-height: 330px
+	background-color: #273d46
+	opacity: 0.9
+	@media (max-width: 650px)
+		gap: 30px
+	@media (max-width: 480px)
+		gap: 20px
+.footer__text
+	align-self: end
+	max-width: 450px
+	letter-spacing: 1px
+	line-height: 30px
+	color: #ffffff
+	font-weight: 500
+	font-family: "Poppins", sans-serif
+	text-align: center
+.footer__form
+	padding: 0 20px
+	align-self: start
+	display: flex
+	flex-wrap: wrap
+	gap: 25px
+	justify-content: center
+.form__input
+	width: 250px
+	height: 45px
+	border-radius: 25px
+	background-color: #2F3E43
+	border: 1px solid #5A6C70
+	padding-left: 30px
+	font-size: 14px
+	letter-spacing: 3px
+	color: #fff
+	font-weight: 500
+	font-family: "Poppins", sans-serif
+	text-transform: uppercase
+.form__button
+	width: 230px
+	height: 45px
+	border-radius: 25px
+	transition-duration: .25s
+	background-color: #80b7b3
+	font-size: 14px
+	letter-spacing: 3px
+	line-height: 40px
+	color: #ffffff
+	font-weight: 500
+	font-family: "Poppins", sans-serif
+	text-transform: uppercase
+	&:hover
+		filter: drop-shadow(0px 6px 20px rgba(128,183,179,0.5))
