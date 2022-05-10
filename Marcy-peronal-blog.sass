@@ -270,8 +270,7 @@
 	@media (max-width: 650px)
 		top: 35%
 	@media (max-width: 480px)
-		top: 30%
-		padding: 20px
+		padding: 15px
 	& p
 		max-width: 560px
 		font-size: 26px
@@ -351,6 +350,9 @@
 	font-weight: 500
 	font-family: "Poppins", sans-serif
 	text-transform: uppercase
+	outline: none
+	&::placeholder
+		color: #fff
 .form__button
 	width: 230px
 	height: 45px
@@ -364,5 +366,8 @@
 	font-weight: 500
 	font-family: "Poppins", sans-serif
 	text-transform: uppercase
+	& span
+		color: #fff
+		font-size: 20px
 	&:hover
 		filter: drop-shadow(0px 6px 20px rgba(128,183,179,0.5))
